@@ -4,7 +4,7 @@ from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
 
 from .forms import InvestorCreationForm, InvestorChangeForm
-from .models import *
+from .models import Investor, Qualification, Passport, Document
 
 
 class InvestorAdmin(UserAdmin):
